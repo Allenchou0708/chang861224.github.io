@@ -1,0 +1,15 @@
+.intro{
+	text-align: center;
+}
+
+#profile_photo{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#profile_photo img{
+	width: 40%;
+	transform: rotate(90deg);
+}
+

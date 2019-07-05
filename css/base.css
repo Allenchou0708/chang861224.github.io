@@ -1,0 +1,262 @@
+@charset 'UTF-8';
+
+/*
+==================================================
+RESET CSS
+==================================================
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, main, menu, nav, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, main, menu, nav, section{
+	display: block;
+}
+
+html{
+	-webkit-text-size-adjust: 100%;
+}
+
+body{
+	color: #59220d;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: sans-serif, "Microsoft JhengHei";
+}
+
+img{
+	border: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+ul{
+	list-style-type: none;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img, input, select, textarea{
+	vertical-align: middle;
+}
+
+a{
+	color: #59220d;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover{
+	color: #d53e04;
+}
+
+a:hover img{
+	opacity: 0.7;
+}
+
+
+/* ICON FONTS */
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot?ra105s');
+	src: url('fonts/icomoon.eot?ra105s#iefix') format('embedded-opentype'),
+	url('fonts/icomoon.ttf?ra105s') format('truetype'),
+	url('fonts/icomoon.woff?ra105s') format('woff'),
+	url('fonts/icomoon.svg?ra105s#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+	content: "\e900";
+}
+.icon-facebook2:before {
+	content: "\ea91";
+}
+.icon-instagram:before {
+	content: "\ea92";
+}
+
+
+/*
+==================================================
+BASE LAYOUT
+==================================================
+ */
+
+/* BASIC DESIGN */
+#index{
+	background-color: #fdf2f2;
+}
+
+.inner{
+	max-width: 940px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+}
+.inner:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* HEADER */
+#header{
+	padding: 30px;
+	background-size: cover;
+	background-position-y: 70%;
+	background-color: #33ccff;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+@media screen and (min-width: 640px){
+	#header{
+		padding: 80px;
+	}
+}
+
+#title{
+	width: 50%;
+	max-width: 840px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+}
+@media screen and (min-width: 640px){
+	#title{
+		font-size: 37px;
+		width: 68%;
+		padding-right: 7%;
+	}
+}
+
+/* NGAV */
+#gnav{
+	background-color: #77ddff;
+	/*margin-bottom: 10px;*/
+}
+#gnav ul{
+	overflow: hidden;
+}
+#gnav li{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+}
+#gnav a{
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+#gnav a:hover{
+	background-color: #33ccff;
+}
+.selected{
+	display: block;
+	color: #fff;
+	background-color: #33ccff;
+	text-decoration: none;
+	font-size: 12px;
+}
+@media screen and (min-width: 640px){
+	#gnav a{
+		font-size: 18px;
+	}
+	.selected{
+		font-size: 18px;
+	}
+}
+
+/* CONTENTS */
+#contents{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#main{
+	width: 100%;
+}
+
+/* FIELDSET */
+.field{
+	max-width: 100%;
+	padding: 10px;
+	border: solid 1px;
+}
+@media screen and (min-width: 640px){
+	.field{
+		padding: 20px;
+	}
+}
+
+.fieldset_title{
+	padding: 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+@media screen and (min-width: 640px){
+	.fieldset_title{
+		padding: 10px 20px;
+		font-size: 26px;
+	}
+}
+
+/* FOOTER */
+#footer{
+	background-color: #33ccff;
+}
+
+/* COPYRIGHT */
+.copyright{
+	text-align: center;
+}
+
+/* SNS */
+.sns{
+	font-size: 18px;
+	text-align: center;
+}
+.sns li{
+	display: inline-block;
+	padding: 5px;
+}

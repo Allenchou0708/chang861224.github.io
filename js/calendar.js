@@ -38,16 +38,16 @@ function get_title(){
 
 function get_dates(){
 	var str = '';
-	var d = 1;
+	var date = 1;
 	var count = 0;
 
 	str += '<tr>';
 
-	while(d == 1){
+	while(date == 1){
 		if(count == get_first_day()){
-			str += get_date(d);
+			str += get_date(date);
 			count++;
-			d++;
+			date++;
 		}
 		else{
 			str += '<td></td>';
@@ -55,18 +55,18 @@ function get_dates(){
 		}
 	}
 
-	for( ; count < 7 ; count++, d++){
-		str += get_date(d);
+	for( ; count < 7 ; count++, date++){
+		str += get_date(date);
 	}
 
 	str += '</tr>';
 
-	while(d <= get_number_of_month_day()){
+	while(date <= get_number_of_month_day()){
 		str += '<tr>';
 
-		for(count = 0 ; count < 7 ; count++, d++){
-			if(d <= get_number_of_month_day()){
-				str += get_date(d);
+		for(count = 0 ; count < 7 ; count++, date++){
+			if(date <= get_number_of_month_day()){
+				str += get_date(date);
 			}
 			else{
 				str += '<td></td>';
@@ -80,18 +80,24 @@ function get_dates(){
 }
 
 
-function get_date(d){
+function get_date(date){
 	var today = new Date();
 	var str = '';
-	if(today.getDate() == d){
+	if(today.getDate() == date){
 		str += '<td ';
 		str += 'class=\'today\'>';
-		str += d;
+		str += '<p class=\'date\'>';
+		str += date;
+		str += '</p>';
+		str += isEvent(today.getMonth()+1, date);
 		str += '</td>';
 	}
 	else{
 		str += '<td>';
-		str += d;
+		str += '<p class=\'date\'>';
+		str += date;
+		str += '</p>';
+		str += isEvent(today.getMonth()+1, date);
 		str += '</td>';
 	}
 	return str;
@@ -106,8 +112,8 @@ function get_month(){
 
 function get_first_day(){
 	var today = new Date();
-	var d = today.getDate();
-	var temp1 = d % 7;
+	var date = today.getDate();
+	var temp1 = date % 7;
 	temp1 -= 7;
 	var count = 0;
 	while(temp1 <= 0){
@@ -133,4 +139,25 @@ function get_number_of_month_day(){
 	else{
 		return 30;
 	}
+}
+
+function isEvent(month, date){
+	var events = [
+		[7, 7, '12:00 Lunch'],
+		[7, 14, '10:00 Taipei'],
+		[7, 18, '14:00 Taipei'],
+		[8, 25, 'TOEIC']
+	]
+	var i;
+	var str = ''
+	
+	for(i = 0 ; i < events.length ; i++){
+		if((month == events[i][0]) && (date == events[i][1])){
+			str += '<p class=\'event\'>';
+			str += events[i][2];
+			str += '</p>';
+		}
+	}
+
+	return str;
 }

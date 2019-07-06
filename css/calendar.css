@@ -29,11 +29,22 @@
 .schedule td{
 	width: 14.2857%;
 	height: 120px;
-	padding-left: 5px;
 	vertical-align: text-top;
 }
 .schedule td:not(:last-child){
 	border-right: #77ddff 0.5px solid;
+}
+
+.date{
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+.event{
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 .today{

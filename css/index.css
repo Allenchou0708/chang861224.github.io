@@ -1,6 +1,9 @@
 .intro{
 	text-align: center;
 }
+.intro strong:first-child{
+	color: red;
+}
 
 #profile_photo{
 	width: 100%;

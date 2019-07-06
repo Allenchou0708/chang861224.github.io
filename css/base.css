@@ -116,23 +116,6 @@ BASE LAYOUT
 ==================================================
  */
 
-/* BASIC DESIGN */
-#index{
-	background-color: #fdf2f2;
-}
-
-.inner{
-	max-width: 940px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: auto;
-}
-.inner:after{
-	content: "";
-	display: block;
-	clear: both;
-}
-
 /* HEADER */
 #header{
 	padding: 30px;
@@ -144,9 +127,18 @@ BASE LAYOUT
 	position: relative;
 	display: block;
 }
+#header p{
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	text-align: right;
+}
 @media screen and (min-width: 640px){
 	#header{
-		padding: 80px;
+		padding: 50px;
+	}
+	#header p{
+		font-size: 16px;
 	}
 }
 
@@ -167,10 +159,51 @@ BASE LAYOUT
 	}
 }
 
+/* BASIC DESIGN */
+#index{
+	background-color: #fdf2f2;
+}
+
+.inner{
+	max-width: 940px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+}
+.inner:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* FIELDSET */
+.field{
+	max-width: 100%;
+	padding: 10px;
+	border: solid 1px;
+}
+@media screen and (min-width: 640px){
+	.field{
+		padding: 20px;
+	}
+}
+
+.fieldset_title{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+@media screen and (min-width: 640px){
+	.fieldset_title{
+		padding: 10px 20px;
+		font-size: 26px;
+	}
+}
+
 /* NGAV */
 #gnav{
 	background-color: #77ddff;
-	/*margin-bottom: 10px;*/
 }
 #gnav ul{
 	overflow: hidden;
@@ -208,37 +241,9 @@ BASE LAYOUT
 
 /* CONTENTS */
 #contents{
+	width: 100%;
 	margin-top: 15px;
 	margin-bottom: 15px;
-}
-
-#main{
-	width: 100%;
-}
-
-/* FIELDSET */
-.field{
-	max-width: 100%;
-	padding: 10px;
-	border: solid 1px;
-}
-@media screen and (min-width: 640px){
-	.field{
-		padding: 20px;
-	}
-}
-
-.fieldset_title{
-	padding: 10px 10px;
-	font-size: 20px;
-	font-weight: bold;
-	color: red;
-}
-@media screen and (min-width: 640px){
-	.fieldset_title{
-		padding: 10px 20px;
-		font-size: 26px;
-	}
 }
 
 /* FOOTER */

@@ -1,7 +1,7 @@
 .table{
 	width: 100%;
-	margin-left: 40px;
-	margin-right: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 .table td:nth-child(1){
 	font-weight: bold;
@@ -36,4 +36,9 @@ main li{
 	border-bottom: #d53e04 1px solid;
 	color: #d53e04;
 	font-size: 20px;
+}
+
+.email{
+	color: blue;
+	text-decoration: underline;
 }

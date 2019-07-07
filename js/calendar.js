@@ -144,6 +144,7 @@ function get_number_of_month_day(){
 function isEvent(month, date){
 	var events = [
 		[7, 7, '12:00 Lunch'],
+		[7, 11, '9:00 Movie'],
 		[7, 14, '10:00 Taipei'],
 		[7, 18, '14:00 Taipei'],
 		[8, 25, 'TOEIC']

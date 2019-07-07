@@ -1,33 +1,56 @@
 .table{
 	width: 100%;
-	padding-left: 40px;
-	padding-right: 40px;
 }
-.table td:nth-child(1){
+.table td:first-child{
 	font-weight: bold;
 	width: 30%;
+}
+.table td:last-child{
+	width: 70px;
+}
+@media screen and (min-width: 640px){
+	.table td:first-child{
+		padding-left: 40px;
+	}
+	.table td:last-child{
+		padding-left: 40px;
+	}
 }
 
 .section{
 	margin-top: 20px;
 }
 .section dt{
-	padding-left: 40px;
-	padding-right: 40px;
 	font-weight: bold;
 	color: blue;
 }
 .section dd{
-	padding-left: 80px;
-	padding-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .section .padding_bottom_10px{
 	padding-bottom: 10px;
 }
+@media screen and (min-width: 640px){
+	.section dt{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.section dd{
+		padding-left: 80px;
+		padding-right: 40px;
+	}
+}
 
 main li{
-	margin-left: 55px;
+	margin-left: 20px;
 	padding-left: 5px;
+}
+@media screen and (min-width: 640px){
+	main li{
+		margin-left: 55px;
+		padding-right: 40px;
+	}
 }
 
 .heading{

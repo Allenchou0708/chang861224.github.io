@@ -34,6 +34,11 @@
 .schedule td:not(:last-child){
 	border-right: #77ddff 0.5px solid;
 }
+@media screen and (min-width: 640px){
+	.schedule td{
+		height: 120px;
+	}
+}
 
 .date{
 	padding-left: 5px;

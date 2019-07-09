@@ -28,7 +28,7 @@
 }
 .schedule td{
 	width: 14.2857%;
-	height: 120px;
+	height: 200px;
 	vertical-align: text-top;
 }
 .schedule td:not(:last-child){

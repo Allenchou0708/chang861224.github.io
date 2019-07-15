@@ -1,3 +1,30 @@
+function isEvent(month, date){
+	var events = [
+		[7, 7, '12:00 Lunch'],
+		[7, 11, '10:20 Movie'],
+		[7, 14, '10:00 Taipei'],
+		[7, 22, '14:00 Taipei'],
+		[8, 11, '9:00 Basketball Game'],
+		[8, 17, '8:50 Flight to Tokyo'],
+		[8, 18, 'Japan'],
+		[8, 19, 'Japan'],
+		[8, 20, 'Japan'],
+		[8, 21, '19:40 Flight to Taipei']
+	]
+	var i;
+	var str = ''
+	
+	for(i = 0 ; i < events.length ; i++){
+		if((month == events[i][0]) && (date == events[i][1])){
+			str += '<p class=\'event\'>';
+			str += events[i][2];
+			str += '</p>';
+		}
+	}
+
+	return str;
+}
+
 function get_calendar(){
 	var str = '';
 	str += get_heading();
@@ -141,29 +168,3 @@ function get_number_of_month_day(){
 	}
 }
 
-function isEvent(month, date){
-	var events = [
-		[7, 7, '12:00 Lunch'],
-		[7, 11, '10:20 Movie'],
-		[7, 14, '10:00 Taipei'],
-		[7, 18, '14:00 Taipei'],
-		[8, 11, '9:00 Basketball Game'],
-		[8, 17, '8:50 Flight to Tokyo'],
-		[8, 18, 'Japan'],
-		[8, 19, 'Japan'],
-		[8, 20, 'Japan'],
-		[8, 21, '19:40 Flight to Taipei']
-	]
-	var i;
-	var str = ''
-	
-	for(i = 0 ; i < events.length ; i++){
-		if((month == events[i][0]) && (date == events[i][1])){
-			str += '<p class=\'event\'>';
-			str += events[i][2];
-			str += '</p>';
-		}
-	}
-
-	return str;
-}

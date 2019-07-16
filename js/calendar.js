@@ -1,18 +1,25 @@
-function isEvent(month, date){
+function get_Events(){
 	var events = [
 		[7, 7, '12:00 Lunch'],
 		[7, 11, '10:20 Movie'],
 		[7, 14, '10:00 Taipei'],
-		[7, 22, '14:00 Taipei'],
+		[7, 22, '9:00 Taipei'],
+		[7, 22, '12:00 Meeting'],
 		[8, 11, '9:00 Basketball Game'],
 		[8, 17, '8:50 Flight to Tokyo'],
+		[8, 17, 'Japan'],
 		[8, 18, 'Japan'],
 		[8, 19, 'Japan'],
 		[8, 20, 'Japan'],
+		[8, 21, 'Japan'],
 		[8, 21, '19:40 Flight to Taipei']
 	]
+	return events;
+}
+function isEvent(month, date){
+	var events = get_Events();
 	var i;
-	var str = ''
+	var str = '';
 	
 	for(i = 0 ; i < events.length ; i++){
 		if((month == events[i][0]) && (date == events[i][1])){

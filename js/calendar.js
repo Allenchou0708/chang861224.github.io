@@ -4,6 +4,7 @@ function get_Events(){
 		[7, 11, '10:20 Movie'],
 		[7, 14, '10:00 Taipei'],
 		[7, 21, '19:30 Go to Taipei'],
+		[7, 23, '17:30 Volleyball'],
 		[8, 11, '9:00 Staff of Basketball Game'],
 		[8, 17, '8:50 Flight to Tokyo'],
 		[8, 17, 'Japan'],

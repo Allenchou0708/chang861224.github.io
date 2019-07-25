@@ -47,6 +47,8 @@ function get_heading(){
 	var str = '';
 	str += '<h3 class=\'heading\'>';
 	str += month_list[get_month()];
+	str += ' ';
+	str += get_year();
 	str += '</h3>';
 	return str;
 }
@@ -132,6 +134,12 @@ function get_date(date){
 		str += '</td>';
 	}
 	return str;
+}
+
+
+function get_year(){
+	var today = new Date();
+	return today.getFullYear();
 }
 
 

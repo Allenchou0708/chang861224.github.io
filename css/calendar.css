@@ -47,6 +47,8 @@
 
 td .event{
 	font-size: 12px;
+	padding-left: 3px;
+	padding-right: 3px;
 	padding-bottom: 10px;
 }
 td .event:nth-child(2n){

@@ -3,7 +3,6 @@ function get_Events(){
 		[7, 7, '12:00 Lunch'],
 		[7, 11, '10:20 Movie'],
 		[7, 14, '10:00 Taipei'],
-		[7, 21, '19:30 Go to Taipei'],
 		[7, 23, '17:30 Volleyball'],
 		[7, 24, '18:30 Baseball Game'],
 		[7, 25, '18:30 Baseball Game'],

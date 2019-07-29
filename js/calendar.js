@@ -6,6 +6,7 @@ function get_Events(){
 		[7, 23, '17:30 Volleyball'],
 		[7, 24, '18:30 Baseball Game'],
 		[7, 25, '18:30 Baseball Game'],
+		[7, 30, '17:30 Volleyball'],
 		[7, 31, '9:30 Pingxi'],
 		[8, 11, '9:00 Staff of Basketball Game'],
 		[8, 17, '8:50 Flight to Tokyo'],

@@ -1,19 +1,11 @@
 function get_Events(){
 	var events = [
-		[7, 7, '12:00 Lunch'],
-		[7, 11, '10:20 Movie'],
-		[7, 14, '10:00 Taipei'],
-		[7, 23, '17:30 Volleyball'],
-		[7, 24, '18:30 Baseball Game'],
-		[7, 25, '18:30 Baseball Game'],
-		[7, 30, '19:00 Volleyball'],
-		[7, 31, '9:30 Pingxi'],
-		[8, 1, '18:30 Baseball Game (Xinzhuang)'],
-		[8, 11, '9:00 Staff of Basketball Game'],
-		[8, 17, '8:50 Flight to Tokyo'],
-		[8, 21, '19:40 Flight to Taipei'],
-		[8, 24, 'Class Gathering'],
-		[8, 25, '17:05 Baseball Game (Taichung)']
+		[8, 1, '18:30-22:00', 'Baseball Game (Xinzhuang)'],
+		[8, 11, '9:00-17:00', 'Staff of Basketball Game'],
+		[8, 17, '8:50-11:00', 'Flight to Tokyo'],
+		[8, 21, '19:40-22:00', 'Flight to Taipei'],
+		[8, 24, '18:00-20:00', 'Class Gathering'],
+		[8, 25, '17:05-21:00', 'Baseball Game (Taichung)']
 	]
 	return events;
 }
@@ -26,6 +18,8 @@ function isEvent(month, date){
 		if((month == events[i][0]) && (date == events[i][1])){
 			str += '<p class=\'event\'>';
 			str += events[i][2];
+			str += '<br>';
+			str += events[i][3];
 			str += '</p>';
 		}
 	}

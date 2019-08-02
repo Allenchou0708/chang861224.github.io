@@ -46,7 +46,7 @@
 }
 
 td .event{
-	font-size: 12px;
+	font-size: 9px;
 	padding-left: 3px;
 	padding-right: 3px;
 	padding-bottom: 5px;
@@ -59,6 +59,7 @@ td .event:nth-child(2n-1){
 }
 @media screen and (min-width: 640px){
 	td .event{
+		font-size: 12px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}

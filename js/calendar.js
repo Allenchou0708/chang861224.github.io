@@ -1,7 +1,7 @@
 function get_Events(){
 	var events = [
 		[8, 1, '18:30-22:00', 'Baseball Game (Xinzhuang)'],
-		[8, 11, '9:00-17:00', 'Staff of Basketball Game'],
+		[8, 11, '8:30-16:00', 'Staff of Basketball Game'],
 		[8, 17, '8:50-11:00', 'Flight to Tokyo'],
 		[8, 21, '19:40-22:00', 'Flight to Taipei'],
 		[8, 24, '18:00-20:00', 'Class Gathering'],

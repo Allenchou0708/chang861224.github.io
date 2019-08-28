@@ -8,7 +8,7 @@ function get_Events(){
 		[8, 21, '19:40-22:00', 'Flight to Taipei'],
 		[8, 24, '18:00-20:00', 'Class Gathering'],
 		[8, 25, '17:05-21:00', 'Baseball Game (Taichung)'],
-		[8, 26, '13:00-14:00', 'Meeting'],
+		[8, 28, '17:30-21:00', 'Volleyball'],
 		[12, 1, '5:30-8:00', 'Road Running']
 	]
 	return events;

@@ -9,6 +9,10 @@ function get_Events(){
 		[8, 24, '18:00-20:00', 'Class Gathering'],
 		[8, 25, '17:05-21:00', 'Baseball Game (Taichung)'],
 		[8, 28, '17:30-21:00', 'Volleyball'],
+		[9, 2, '15:00-16:30', 'CS Welcome Party'],
+		[9, 5, '19:10-21:00', 'Soccer Game'],
+		[9, 8, '18:00-19:30', 'NCBA Staff Gathering'],
+		[9, 10, '19:00-21:00', 'Soccer Game'],
 		[12, 1, '5:30-8:00', 'Road Running']
 	]
 	return events;

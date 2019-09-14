@@ -160,7 +160,7 @@ function get_first_day(){
 	var temp1 = date % 7;
 	temp1 -= 7;
 	var count = 0;
-	while(temp1 <= 0){
+	while(temp1 < 0){
 		temp1 += 1;
 		count += 1;
 	}

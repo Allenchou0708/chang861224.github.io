@@ -1,18 +1,10 @@
 function get_Events(){
 	var events = [
-		[8, 1, '18:30-22:00', 'Baseball Game (Xinzhuang)'],
-		[8, 11, '8:30-16:00', 'Staff of Basketball Game'],
-		[8, 12, '10:30-19:00', 'Taipei'],
-		[8, 14, '16:00-18:00', 'Volleyball'],
-		[8, 17, '8:50-11:00', 'Flight to Tokyo'],
-		[8, 21, '19:40-22:00', 'Flight to Taipei'],
-		[8, 24, '18:00-20:00', 'Class Gathering'],
-		[8, 25, '17:05-21:00', 'Baseball Game (Taichung)'],
-		[8, 28, '17:30-21:00', 'Volleyball'],
-		[9, 2, '15:00-16:30', 'CS Welcome Party'],
-		[9, 8, '18:00-19:30', 'NCBA Staff Gathering'],
-		[9, 10, '19:00-21:00', 'Soccer Game'],
-		[12, 1, '5:30-8:00', 'Road Running']
+		[10, 3, '12:00-14:00', 'NCBA Staff'],
+		[10, 8, '13:00-14:00', 'NCCU MIX'],
+		[10, 14, '13:00-14:30', 'Taking Photo for Graduating'],
+		[12, 1, '5:30-8:00', 'Road Running'],
+		[12, 24, '18:30-22:00', 'Mayday']
 	]
 	return events;
 }

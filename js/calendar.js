@@ -158,7 +158,8 @@ function get_first_day(){
 	}
 	var day = today.getDay();
 	day += count;
-	day -= 7;
+	day = day % 7;
+	day += 1;
 	return day;
 }
 

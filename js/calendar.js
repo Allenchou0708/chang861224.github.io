@@ -3,6 +3,7 @@ function get_Events(){
 		[10, 3, '12:00-14:00', 'NCBA Staff'],
 		[10, 8, '13:00-14:00', 'NCCU MIX'],
 		[10, 14, '13:00-14:30', 'Taking Photo for Graduating'],
+		[11, 2, '8:10-9:40', 'NCCUCS Interview'],
 		[12, 1, '5:30-8:00', 'Road Running'],
 		[12, 24, '18:30-22:00', 'Mayday']
 	]

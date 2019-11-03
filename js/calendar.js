@@ -1,9 +1,5 @@
 function get_Events(){
 	var events = [
-		[10, 3, '12:00-14:00', 'NCBA Staff'],
-		[10, 8, '13:00-14:00', 'NCCU MIX'],
-		[10, 14, '13:00-14:30', 'Taking Photo for Graduating'],
-		[10, 28, '13:00-14:00', 'CS Proj Meeting'],
 		[11, 2, '8:10-9:40', 'NCCUCS Interview'],
 		[11, 4, '13:00-14:00', 'CS Proj Meeting'],
 		[11, 5, '9:10-12:00', 'Statistics Midterm'],
@@ -11,6 +7,7 @@ function get_Events(){
 		[11, 6, '10:10-12:00', 'International Business Midterm'],
 		[11, 6, '13:10-16:00', 'NLP Midterm'],
 		[11, 7, '9:10-12:00', 'Money and Banking Midterm'],
+		[11, 7, '18:30', 'Premier 12\nJPN vs. TPE'],
 		[11, 11, '13:00-14:00', 'CS Proj Meeting'],
 		[11, 18, '13:00-14:00', 'CS Proj Meeting'],
 		[11, 25, '13:00-14:00', 'CS Proj Meeting'],

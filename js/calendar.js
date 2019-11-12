@@ -9,6 +9,7 @@ function get_Events(){
 		[11, 7, '9:10-12:00', 'Money and Banking Midterm'],
 		[11, 7, '18:30', 'Premier 12\nJPN vs. TPE'],
 		[11, 11, '13:00-14:00', 'CS Proj Meeting'],
+		[11, 17, '9:00-17:00', 'CPBL Record Seminar'],
 		[11, 18, '13:00-14:00', 'CS Proj Meeting'],
 		[11, 25, '13:00-14:00', 'CS Proj Meeting'],
 		[12, 1, '5:30-8:00', 'Road Running'],

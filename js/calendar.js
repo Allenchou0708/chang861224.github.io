@@ -1,23 +1,14 @@
 function get_Events(){
 	var events = [
-		[11, 2, '8:10-9:40', 'NCCUCS Interview'],
-		[11, 4, '13:00-14:00', 'CS Proj Meeting'],
-		[11, 5, '9:10-12:00', 'Statistics Midterm'],
-		[11, 5, '13:10-16:00', 'Computer Network Midterm'],
-		[11, 6, '10:10-12:00', 'International Business Midterm'],
-		[11, 6, '13:10-16:00', 'NLP Midterm'],
-		[11, 7, '9:10-12:00', 'Money and Banking Midterm'],
-		[11, 7, '18:30', 'Premier 12\nJPN vs. TPE'],
-		[11, 11, '13:00-14:00', 'CS Proj Meeting'],
-		[11, 17, '9:00-17:00', 'CPBL Record Seminar'],
-		[11, 18, '13:00-14:00', 'CS Proj Meeting'],
-		[11, 25, '13:00-14:00', 'CS Proj Meeting'],
 		[12, 1, '5:30-8:00', 'Road Running'],
 		[12, 2, '13:00-14:00', 'CS Proj Meeting'],
 		[12, 9, '13:00-14:00', 'CS Proj Meeting'],
 		[12, 16, '13:00-14:00', 'CS Proj Meeting'],
 		[12, 23, '10:00-14:00', 'CS Proj Exhibition'],
-		[12, 24, '18:30-22:00', 'Mayday']
+		[12, 24, '18:30-22:00', 'Mayday'],
+		[12, 28, '19:30-22:00', 'NCCUCSVL'],
+		[12, 30, '10:00-10:30', 'NCCU MIX'],
+		[1, 10, '10:00-17:00', '學士服外拍']
 	]
 	return events;
 }

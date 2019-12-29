@@ -78,7 +78,7 @@ function get_dates(){
 	str += '<tr>';
 
 	while(date == 1){
-		if(count == (get_first_day() - 1)){
+		if(count == get_first_day()){
 			str += get_date(date);
 			count++;
 			date++;
@@ -164,7 +164,12 @@ function get_first_day(){
 	day += count;
 	day = day % 7;
 	day += 1;
-	return day;
+	if(day == 7){
+		return 0;
+	}
+	else{
+		return day;
+	}
 }
 
 

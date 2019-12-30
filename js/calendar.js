@@ -164,12 +164,7 @@ function get_first_day(){
 	day += count;
 	day = day % 7;
 	day += 1;
-	if(day == 7){
-		return 0;
-	}
-	else{
-		return day;
-	}
+	return (day % 7);
 }
 
 

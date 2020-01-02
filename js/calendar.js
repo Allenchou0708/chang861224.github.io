@@ -1,14 +1,10 @@
 function get_Events(){
 	var events = [
-		[12, 1, '5:30-8:00', 'Road Running'],
-		[12, 2, '13:00-14:00', 'CS Proj Meeting'],
-		[12, 9, '13:00-14:00', 'CS Proj Meeting'],
-		[12, 16, '13:00-14:00', 'CS Proj Meeting'],
-		[12, 23, '10:00-14:00', 'CS Proj Exhibition'],
-		[12, 24, '18:30-22:00', 'Mayday'],
-		[12, 28, '19:30-22:00', 'NCCUCSVL'],
-		[12, 30, '10:00-10:30', 'NCCU MIX'],
-		[1, 10, '10:00-17:00', 'Photograph']
+		[1, 10, '10:00-17:00', 'Photograph'],
+		[1, 6, '18:30-20:30', 'lab meeting'],
+		[1, 13, '18:30-20:30', 'lab meeting'],
+		[2, 3, '18:30-20:30', 'lab meeting'],
+		[2, 10, '18:30-20:30', 'lab meeting']
 	]
 	return events;
 }

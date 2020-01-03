@@ -1,10 +1,11 @@
 function get_Events(){
 	var events = [
+		[1, 4, '18:00-21:00', 'Dinner w/ family'],
 		[1, 10, '10:00-17:00', 'Photograph'],
-		[1, 6, '18:30-20:30', 'lab meeting'],
-		[1, 13, '18:30-20:30', 'lab meeting'],
-		[2, 3, '18:30-20:30', 'lab meeting'],
-		[2, 10, '18:30-20:30', 'lab meeting']
+		[1, 6, '18:30-20:30', 'Lab meeting'],
+		[1, 13, '18:30-20:30', 'Lab meeting'],
+		[2, 3, '18:30-20:30', 'Lab meeting'],
+		[2, 10, '18:30-20:30', 'Lab meeting']
 	]
 	return events;
 }

@@ -4,6 +4,9 @@ function get_Events(){
 		[1, 10, '10:00-17:00', 'Photograph'],
 		[1, 6, '18:30-20:30', 'Lab meeting'],
 		[1, 13, '18:30-20:30', 'Lab meeting'],
+		[1, 27, '(All Day)', 'Nantou'],
+		[1, 28, '(All Day)', 'Nantou'],
+		[2, 1, '15:00-16:00', 'Dentist'],
 		[2, 3, '18:30-20:30', 'Lab meeting'],
 		[2, 10, '18:30-20:30', 'Lab meeting']
 	]

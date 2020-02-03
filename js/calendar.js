@@ -1,17 +1,6 @@
 function get_Events(){
 	var events = [
-		[1, 4, '18:00-21:00', 'Dinner w/ family'],
-		[1, 10, '10:00-17:00', '(Cancelled) Photograph'],
-		[1, 11, '8:00-16:00', 'President vote'],
-		[1, 6, '18:30-20:30', 'Lab meeting'],
-		[1, 13, '18:30-20:30', 'Lab meeting'],
-		[1, 14, '17:30-21:00', 'Volleyball'],
-		[1, 17, '17:30-10:00', 'Volleyball'],
-		[1, 27, '(All Day)', 'Nantou'],
-		[1, 28, '(All Day)', 'Nantou'],
-		[2, 1, '15:00-16:00', 'Dentist'],
-		[2, 3, '18:30-20:30', 'Lab meeting'],
-		[2, 10, '18:30-20:30', 'Lab meeting'],
+		[2, 8, '15:00-16:00', 'Dentist'],
 		[2, 12, '9:00-17:00', 'Volleyball training'],
 		[2, 13, '9:00-12:00', 'Volleyball training'],
 		[2, 14, '13:00-17:00', 'Volleyball training']

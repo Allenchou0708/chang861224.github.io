@@ -1,5 +1,7 @@
 function get_Events(){
 	var events = [
+		[2, 5, '17:30-21:00', 'Volleyball'],
+		[2, 7, '16:45-17:30', 'THSR Hsinchu Station'],
 		[2, 8, '15:00-16:00', 'Dentist'],
 		[2, 12, '9:00-17:00', 'Volleyball training'],
 		[2, 13, '9:00-12:00', 'Volleyball training'],

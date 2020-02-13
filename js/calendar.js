@@ -6,6 +6,7 @@ function get_Events(){
 		[2, 8, '15:00-16:00', 'Dentist'],
 		[2, 12, '9:00-17:00', 'Volleyball training'],
 		[2, 13, '9:00-12:00', 'Volleyball training'],
+		[2, 13, '17:30-21:00', 'Volleyball'],
 		[2, 14, '13:00-17:00', 'Volleyball training']
 	]
 	return events;

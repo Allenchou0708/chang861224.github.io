@@ -7,7 +7,10 @@ function get_Events(){
 		[2, 12, '9:00-17:00', 'Volleyball training'],
 		[2, 13, '9:00-12:00', 'Volleyball training'],
 		[2, 13, '17:30-21:00', 'Volleyball'],
-		[2, 14, '13:00-17:00', 'Volleyball training']
+		[2, 14, '13:00-17:00', 'Volleyball training'],
+		[2, 28, '12:00-18:00', 'TVL'],
+		[3, 1, '9:00-12:00', 'Tomb sweep'],
+		[3, 7, '14:30-15:30', 'Dentist']
 	]
 	return events;
 }

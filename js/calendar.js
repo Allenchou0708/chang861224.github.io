@@ -1,18 +1,13 @@
 function get_Events(){
 	var events = [
-		[2, 5, '17:30-21:00', 'Volleyball'],
-		[2, 6, '19:30-21:30', 'Dinner'],
-		[2, 7, '16:45-17:30', 'THSR Hsinchu Station'],
-		[2, 8, '15:00-16:00', 'Dentist'],
-		[2, 12, '9:00-17:00', 'Volleyball training'],
-		[2, 13, '9:00-12:00', 'Volleyball training'],
-		[2, 13, '17:30-21:00', 'Volleyball'],
-		[2, 14, '13:00-17:00', 'Volleyball training'],
 		[3, 1, '9:00-12:00', 'Tomb sweep'],
 		[3, 2, '18:30-21:00', 'Lab meeting'],
-		[3, 3, '12:00-13:00', 'Audiovisual eq. lecture'],
 		[3, 7, '14:30-15:30', 'Dentist'],
-		[3, 9, '13:00-14:00', 'Online interview']
+		[3, 9, '13:00-14:00', 'Online interview'],
+		[3, 9, '18:30-21:00', 'Lab meeting'],
+		[3, 16, '18:30-21:00', 'Lab meeting'],
+		[3, 23, '18:30-21:00', 'Lab meeting'],
+		[3, 30, '18:30-21:00', 'Lab meeting']
 	]
 	return events;
 }

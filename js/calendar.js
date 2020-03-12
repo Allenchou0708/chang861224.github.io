@@ -5,7 +5,11 @@ function get_Events(){
 		[3, 7, '14:30-15:30', 'Dentist'],
 		[3, 9, '13:00-14:00', 'Online interview'],
 		[3, 9, '18:30-21:00', 'Lab meeting'],
+		[3, 11, '12:00-14:00', 'NCBA staff'],
 		[3, 16, '18:30-21:00', 'Lab meeting'],
+		[3, 17, '12:00-14:00', 'NCBA staff'],
+		[3, 20, '12:00-13:00', 'NCCU MIX'],
+		[3, 20, '12:00-14:00', 'NCBA staff'],
 		[3, 23, '18:30-21:00', 'Lab meeting'],
 		[3, 30, '18:30-21:00', 'Lab meeting']
 	]

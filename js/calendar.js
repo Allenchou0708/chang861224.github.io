@@ -13,7 +13,8 @@ function get_Events(){
 		[3, 23, '18:30-21:00', 'Lab meeting'],
 		[3, 24, '12:00-13:00', 'NCCU MIX'],
 		[3, 30, '18:30-21:00', 'Lab meeting'],
-		[3, 31, '12:00-13:00', 'NCCU MIX']
+		[3, 31, '12:00-13:00', 'NCCU MIX'],
+		[3, 31, '19:30-21:00', 'NCBA Award Ceremony']
 	]
 	return events;
 }

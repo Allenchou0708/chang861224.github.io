@@ -1,20 +1,11 @@
 function get_Events(){
 	var events = [
-		[3, 1, '9:00-12:00', 'Tomb sweep'],
-		[3, 2, '18:30-21:00', 'Lab meeting'],
-		[3, 7, '14:30-15:30', 'Dentist'],
-		[3, 9, '13:00-14:00', 'Online interview'],
-		[3, 9, '18:30-21:00', 'Lab meeting'],
-		[3, 11, '12:00-14:00', 'NCBA staff'],
-		[3, 16, '18:30-21:00', 'Lab meeting'],
-		[3, 17, '12:00-14:00', 'NCBA staff'],
-		[3, 20, '12:00-13:00', 'NCCU MIX'],
-		[3, 20, '12:00-14:00', 'NCBA staff'],
-		[3, 23, '18:30-21:00', 'Lab meeting'],
-		[3, 24, '12:00-13:00', 'NCCU MIX'],
-		[3, 30, '18:30-21:00', 'Lab meeting'],
-		[3, 31, '12:00-13:00', 'NCCU MIX'],
-		[3, 31, '19:30-21:00', 'NCBA Award Ceremony']
+		[4, 6, '18:30-21:00', 'Lab meeting'],
+		[4, 13, '18:30-21:00', 'Lab meeting'],
+        [4, 16, '10:00-12:00', 'Visit outside'],
+		[4, 20, '18:30-21:00', 'Lab meeting'],
+        [4, 24, '9:00-12:00', 'CSL midterm'],
+		[4, 27, '18:30-21:00', 'Lab meeting']
 	]
 	return events;
 }

@@ -8,7 +8,11 @@ function get_Events(){
         [4, 26, '10:30-14:00', 'NTUA'],
 		[4, 27, '18:30-21:00', 'Lab meeting'],
         [5, 2, '9:00-10:00', 'Dentist'],
-        [5, 8, '9:00-12:00', 'CSL midterm']
+		[5, 4, '18:30-21:00', 'Lab meeting'],
+        [5, 8, '9:00-12:00', 'CSL midterm'],
+		[5, 11, '18:30-21:00', 'Lab meeting'],
+		[5, 18, '18:30-21:00', 'Lab meeting'],
+		[5, 25, '18:30-21:00', 'Lab meeting']
 	]
 	return events;
 }

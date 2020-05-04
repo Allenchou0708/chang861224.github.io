@@ -1,18 +1,23 @@
 function get_Events(){
 	var events = [
-		[4, 6, '18:30-21:00', 'Lab meeting'],
-		[4, 13, '18:30-21:00', 'Lab meeting'],
-        [4, 16, '10:00-12:00', 'Visit outside'],
-		[4, 20, '18:30-21:00', 'Lab meeting'],
-        [4, 25, '14:30-17:00', 'Visit outside'],
-        [4, 26, '10:30-14:00', 'NTUA'],
-		[4, 27, '18:30-21:00', 'Lab meeting'],
         [5, 2, '9:00-10:00', 'Dentist'],
+        [5, 4, '8:00-10:30', 'Volleyball training'],
 		[5, 4, '18:30-21:00', 'Lab meeting'],
+        [5, 5, '12:00-13:00', 'NCCU MIX'],
+        [5, 5, '12:00-14:00', 'NCCU baseball game'],
+        [5, 5, '18:00-19:00', 'LHS discussion'],
+        [5, 6, '18:30-19:30', 'To Hsinchu'],
+        [5, 7, '9:30-10:00', 'Military service lottery'],
+        [5, 7, '12:00-13:00', 'To Taipei'],
         [5, 8, '9:00-12:00', 'CSL midterm'],
 		[5, 11, '18:30-21:00', 'Lab meeting'],
+        [5, 12, '12:00-13:00', 'NCCU MIX'],
+        [5, 12, '18:00-19:00', 'LHS discussion'],
 		[5, 18, '18:30-21:00', 'Lab meeting'],
+        [5, 19, '18:00-19:00', 'LHS discussion'],
 		[5, 25, '18:30-21:00', 'Lab meeting']
+        [5, 26, '18:00-19:00', 'LHS discussion'],
+        [11, 14, '9:00-10:00', 'Dentist'],
 	]
 	return events;
 }

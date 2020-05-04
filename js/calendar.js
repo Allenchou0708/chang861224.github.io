@@ -15,7 +15,7 @@ function get_Events(){
         [5, 12, '18:00-19:00', 'LHS discussion'],
 		[5, 18, '18:30-21:00', 'Lab meeting'],
         [5, 19, '18:00-19:00', 'LHS discussion'],
-		[5, 25, '18:30-21:00', 'Lab meeting']
+		[5, 25, '18:30-21:00', 'Lab meeting'],
         [5, 26, '18:00-19:00', 'LHS discussion'],
         [11, 14, '9:00-10:00', 'Dentist'],
 	]

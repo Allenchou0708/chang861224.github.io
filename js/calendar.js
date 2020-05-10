@@ -20,7 +20,6 @@ function get_Events(){
         [5, 13, '18:00', 'Dinner'],
         [5, 15, '16:00', 'To Hsinchu via Yunlin'],
 		[5, 18, '18:30-21:00', 'Lab meeting'],
-        [5, 19, '18:00-19:00', 'LHS discussion'],
         [5, 20, '16:00-18:00', 'PE'],
 		[5, 25, '18:30-21:00', 'Lab meeting'],
         [5, 26, '18:00-19:00', 'LHS discussion'],

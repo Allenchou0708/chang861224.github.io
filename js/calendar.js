@@ -18,6 +18,7 @@ function get_Events(){
         [5, 12, '18:00-19:00', 'LHS discussion'],
         [5, 13, '16:00-18:00', 'PE'],
         [5, 13, '18:00', 'Dinner'],
+        [5, 14, '20:00-21:00', 'LHS group meeting'],
         [5, 15, '16:00', 'To Hsinchu via Yunlin'],
 		[5, 18, '18:30-21:00', 'Lab meeting'],
         [5, 20, '16:00-18:00', 'PE'],
@@ -25,6 +26,9 @@ function get_Events(){
         [5, 26, '18:00-19:00', 'LHS discussion'],
         [5, 27, '16:00-18:00', 'PE'],
         [6, 12, '9:00-12:00', 'CSL Final Project'],
+        [6, 12, '18:30-21:00', 'NCCUCS farewell party'],
+        [6, 13, '9:00-10:30', 'NCCU Graduation Ceremony'],
+        [6, 13, '13:00-15:00', 'NCCUCS graduation ceremony'],
         [11, 14, '9:00-10:00', 'Dentist'],
 	]
 	return events;

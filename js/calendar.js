@@ -29,6 +29,7 @@ function get_Events(){
         [6, 12, '18:30-21:00', 'NCCUCS farewell party'],
         [6, 13, '9:00-10:30', 'NCCU Graduation Ceremony'],
         [6, 13, '13:00-15:00', 'NCCUCS graduation ceremony'],
+        [6, 19, '9:00-12:00', 'CSL Final Exam'],
         [11, 14, '9:00-10:00', 'Dentist'],
 	]
 	return events;

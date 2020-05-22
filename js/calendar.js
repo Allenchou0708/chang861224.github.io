@@ -25,6 +25,7 @@ function get_Events(){
         [5, 19, '14:00-15:00', 'HTTP:302(found) staff'],
         [5, 19, '21:00-23:00', 'Volleyball Training'],
         [5, 20, '16:00-18:00', 'PE'],
+        [5, 25, '12:00-13:00', 'NCCU MIX'],
 		[5, 25, '18:30-21:00', 'Online lab seminar'],
         [5, 26, '18:00-19:00', 'LHS discussion'],
         [5, 27, '16:00-18:00', 'PE'],

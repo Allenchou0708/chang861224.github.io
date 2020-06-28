@@ -19,6 +19,7 @@ function get_Events(){
         [6, 23, '12:00-13:30', 'Dorm 6203'],
         [6, 25, '11:00-16:00', 'Moving'],
         [6, 26, '18:30-19:30', 'NTU Hospital Hsinchu'],
+        [6, 28, '14:00-15:00', 'Haircut'],
 		[6, 29, '18:30-21:00', 'Online lab seminar'],
         [7, 3, '10:00-16:00', 'NCCU'],
 		[7, 6, '18:30-21:00', 'Online lab seminar'],

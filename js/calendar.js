@@ -2,10 +2,11 @@ function get_Events(){
 	var events = [
         [8, 1, '17:00-20:30', 'CPBL'],
 		[8, 3, '18:30-21:00', 'Online lab seminar'],
+        [8, 4, '9:30-12:00', 'COSTCO'],
 		[8, 10, '18:30-21:00', 'Online lab seminar'],
+        [8, 11, '(All Day)', 'Taipei Nangang Exhibit. Center'], 
 		[8, 17, '18:30-21:00', 'Online lab seminar'],
-        [8, 18, '10:00', 'Taipei'],
-        [8, 18, '11:30-14:00', 'Ice skiing'],
+        [8, 18, '(All Day)', 'Ice skiing'],
 		[8, 24, '18:30-21:00', 'Online lab seminar'],
 		[8, 31, '18:30-21:00', 'Online lab seminar'],
         [11, 14, '9:00-10:00', 'Dentist'],

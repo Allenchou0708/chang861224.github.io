@@ -7,6 +7,7 @@ function get_Events(){
         [8, 11, '(All Day)', 'CYBERSEC 2020'], 
         [8, 15, '(All Day)', 'Hsinchu w/Chloe'],
 		[8, 17, '18:30-21:00', 'Online lab seminar'],
+        [8, 22, '12:00-13:30', 'Class 316 reunion'],
 		[8, 24, '18:30-21:00', 'Online lab seminar'],
 		[8, 31, '18:30-21:00', 'Online lab seminar'],
         [11, 14, '9:00-10:00', 'Dentist'],

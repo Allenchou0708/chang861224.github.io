@@ -9,7 +9,9 @@ function get_Events(){
 		[8, 17, '18:30-21:00', 'Online lab seminar'],
         [8, 22, '12:00-13:30', 'Class 316 reunion'],
 		[8, 24, '18:30-21:00', 'Online lab seminar'],
+        [8, 29, '17:00-20:30', 'CPBL 31'],
 		[8, 31, '18:30-21:00', 'Online lab seminar'],
+        [9, 6, '(All Day)', 'Dormitory Moving'],
         [11, 14, '9:00-10:00', 'Dentist'],
 	]
 	return events;

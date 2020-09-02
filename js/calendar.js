@@ -1,17 +1,10 @@
 function get_Events(){
 	var events = [
-        [8, 1, '17:00-20:30', 'CPBL'],
-		[8, 3, '18:30-21:00', 'Online lab seminar'],
-        [8, 4, '9:30-12:00', 'COSTCO'],
-		[8, 10, '18:30-21:00', 'Online lab seminar'],
-        [8, 11, '(All Day)', 'CYBERSEC 2020'], 
-        [8, 15, '(All Day)', 'Hsinchu w/Chloe'],
-		[8, 17, '18:30-21:00', 'Online lab seminar'],
-        [8, 22, '12:00-13:30', 'Class 316 reunion'],
-		[8, 24, '18:30-21:00', 'Online lab seminar'],
-        [8, 29, '17:00-20:30', 'CPBL 31'],
-		[8, 31, '18:30-21:00', 'Online lab seminar'],
         [9, 6, '(All Day)', 'Dormitory Moving'],
+        [9, 7, '18:30-21:00', 'Online lab seminar']
+        [9, 14, '18:30-21:00', 'Online lab seminar']
+        [9, 21, '18:30-21:00', 'Online lab seminar']
+        [9, 28, '18:30-21:00', 'Online lab seminar']
         [11, 14, '9:00-10:00', 'Dentist'],
 	]
 	return events;

@@ -1,7 +1,8 @@
 function get_Events(){
 	var events = [
-        [9, 6, '(All Day)', 'Dormitory Moving'],
+        [9, 5, '(All Day)', 'Dormitory Moving'],
         [9, 7, '18:30-21:00', 'Online lab seminar'],
+        [9, 8, '13:30-14:30', 'Interview for TA'],
         [9, 14, '18:30-21:00', 'Online lab seminar'],
         [9, 21, '18:30-21:00', 'Online lab seminar'],
         [9, 28, '18:30-21:00', 'Online lab seminar'],

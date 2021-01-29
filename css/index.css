@@ -10,14 +10,8 @@
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
-    -moz-transform:rotate(-90deg);
-    -webkit-transform:rotate(-90deg);
-    -o-transform:rotate(-90deg);
-    -ms-transform:rotate(-90deg);
-    transform:rotate(-90deg);
 }
 #profile_photo img{
 	width: 40%;
-	transform: rotate(90deg);
 }
 
